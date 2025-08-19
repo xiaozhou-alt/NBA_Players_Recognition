@@ -209,3 +209,4 @@ Sample 2:
 ### UI界面使用视频(demo.mp4)如下：
 
 <video src="./demo.mp4"></video>
+GitHub可能无法正常显示缩略图，请查看demo.mp4
