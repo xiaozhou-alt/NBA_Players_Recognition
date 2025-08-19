@@ -1,0 +1,21 @@
+# TensorFlow 核心
+tensorflow==2.18.0
+# 数据处理和科学计算
+numpy==1.26.4
+pandas==2.2.2
+scikit-learn==1.5.0
+# 图像处理
+Pillow==10.3.0
+opencv-python-headless==4.9.0.80  # 比matplotlib更轻量的图像处理
+# 数据可视化 (简化版)
+matplotlib==3.8.4
+# 其他必要库
+protobuf==4.25.3  # TensorFlow 依赖
+termcolor==2.4.0  # 终端输出美化
+h5py==3.11.0      # HDF5 模型支持
+absl-py==2.1.0    # TensorFlow 依赖
+# 轻量化替代库 (保持环境精简)
+altair==5.3.0      # 替代部分matplotlib功能
+PyQt5==5.15.2
+# exe执行程序
+#pyinstaller==6.15.0
