@@ -57,10 +57,6 @@ NBA/
 }
 ```
 
-
-
-数据集下载请前往：[NBA_Players(kaggle.com)]([NBA_Players (kaggle.com)](https://www.kaggle.com/datasets/rexinshiminxiaozhou/nba-players))
-
 ==ps：全网**最大最全**的开源NBA巨星图片数据库，仅供学习使用，请勿商用！！！==
 
 数据集包含多位NBA球星的图像，结构如下：
@@ -213,3 +209,4 @@ Sample 2:
 ### UI界面使用视频(demo.mp4)如下：
 
 <video src="./demo.mp4"></video>
+GitHub可能无法正常显示缩略图，请查看demo.mp4
