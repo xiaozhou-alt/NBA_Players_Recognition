@@ -1,6 +1,6 @@
 # **NBA球星图像识别系统 & 球星认识小游戏**
 
- <img src="./output/pic/cover.jpg" width="500" style="float: left; margin-right: 15px;" />
+ <img src="./output/pic/cover.jpg" width="400" style="float: left; margin-right: 15px;" />
 
 
 
@@ -246,3 +246,4 @@ Sample 2:
 
 <video src="./demo.mp4"></video>
 若GitHub无法正常显示缩略图，请查看demo.mp4
+
