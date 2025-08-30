@@ -1,5 +1,30 @@
 # **NBA球星图像识别系统 & 球星认识小游戏**
 
+ <img src="./output/pic/cover.jpg" width="500" style="float: left; margin-right: 15px;" />
+
+
+
+
+
+
+
+
+
+[![DOI](https://img.shields.io/badge/DOI-10.57760/sciencedb.29219-blue.svg)](https://doi.org/10.57760/sciencedb.29219)[![Model](https://img.shields.io/badge/Model-EfficientNetV2L-green.svg)](https://pytorch.org/hub/nvidia_deeplearningexamples_efficientnet/)[![DOI](https://img.shields.io/badge/License-MIT-yellow.svg)](https://www.mit.edu/)
+
+---
+
+## 📋目录
+
+- 🌟[项目介绍](#项目介绍)
+- 📊[数据集说明](#数据集说明)
+- 📁[文件夹结构](#文件夹结构)
+- 🧠[模型架构实现](#模型架构实现)
+- 🚀[快速开始](#快速开始)
+- 📈[结果展示](#结果展示)
+
+---
+
 ## 项目介绍
 
 这个项目使用深度学习技术对NBA球星图像进行分类。项目基于TensorFlow实现，采用迁移学习策略，使用预训练的 EfficientNetV2L 模型作为基础架构，并添加了自定义的通道注意力机制。整个训练过程分为两个阶段：第一阶段冻结基础模型训练分类头，第二阶段解冻顶层进行微调优化；同时结合UI界面，将球星识别系统设计了一个球星识别小游戏，测试用户对NBA球星的了解程度
@@ -46,14 +71,25 @@ NBA/
 
 数据集为项目贡献者（rexinshiminxiaozhou）使用插件在图片版权网站上爬取，并进行清洗和整理得到，如果您在您的工作中使用到了本项目的数据集，请参照如下方式进行引用：
 
-```makefile
-@misc{YourLastName_NBA_Player_Dataset,
-  author       = {xiaozhou},
-  title        = {{NBA球星照片数据集 (NBA_Player)}},
-  year         = {2025},
-  howpublished = {\url{数据集永久链接 (如 DOI)}},
-  note         = {访问日期: 访问日期},
-  license      = {CC BY 4.0}
+### 引用
+
+==如果您使用了本项目的数据集，请使用如下方式进行引用：==
+
+```
+Haojing ZHOU. NBA 60位全明星球员图片数据集[DS/OL]. V1. Science Data Bank, 2025[2025-08-30]. https://doi.org/10.57760/sciencedb.29219. DOI:10.57760/sciencedb.29219.
+```
+
+或
+
+```tex
+@misc{动物识别,
+  author = {Haojing ZHOU},
+  title  = {NBA 60位全明星球员图片数据集},
+  year   = {2025},
+  doi    = {10.57760/sciencedb.29219},
+  url    = {https://doi.org/10.57760/sciencedb.29219},
+  note   = {CSTR: 31253.11.sciencedb.29219},
+  publisher = {ScienceDB}
 }
 ```
 
@@ -209,4 +245,4 @@ Sample 2:
 ### UI界面使用视频(demo.mp4)如下：
 
 <video src="./demo.mp4"></video>
-GitHub可能无法正常显示缩略图，请查看demo.mp4
+若GitHub无法正常显示缩略图，请查看demo.mp4
